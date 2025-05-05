@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Plantio</title>
+</head>
+<body>
+    <script src="scriptNavBar.js"></script>
+    <h1 id="forestcraft">FORESTcraft</h1>  
+    <div data-avatar-classe>
+        <h2>Cadastro de Plantio</h2>
+        <form action="" id="formPlantio">
+            <label for="quantaArvore">Quantas árvores foram plantadas?</label>
+            <input type="number" name="quantaArvore" id="quantaArvore" required>
+            <select name="tipoArvore" id="tipoArvore" required>
+                <option value="ipe">Ipê</option>
+                <option value="angico">Angico</option>
+                <option value="aroeira">Aroeira</option>
+                <option value="jequitiba">Jequitibá</option>
+                <option value="perobadocampo">Peroba do Campo</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <!-- Adicione esta linha no final do body -->
+    <script src="scriptCadastroPlantio.js"></script>
+    <link rel="stylesheet" href="temas-divs.css">
+    <script src="scriptAtribuirTema.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Relatório</title>
+    <style>
+        #resultado {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 500px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <script src="scriptNavBar.js"></script>
+    <h1 id="forestcraft">FORESTcraft</h1>
+    <div>
+        <form id="formBusca">
+            <div class="form-group" data-avatar-classe>
+                <label for="usuario">Usuário:</label>
+                <input type="text" id="usuario" name="usuario">
+            </div>
+            <div class="form-group">
+                <label for="arvore">Árvore:</label>
+                <select id="arvore" name="arvore">
+                    <option value="">Todas</option>
+                    <option value="ipe">Ipê</option>
+                    <option value="angico">Angico</option>
+                    <option value="aroeira">Aroeira</option>
+                    <option value="jequitiba">Jequitibá</option>
+                    <option value="perobadocampo">Peroba do Campo</option>
+                </select>
+            </div>
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="resultado" data-avatar-classe></div>
+    </div>
+    <script src="scriptBuscadorRelatorio.js"></script>
+    <link rel="stylesheet" href="temas-divs.css">
+    <script src="scriptAtribuirTema.js"></script>
+</body>
+</html>

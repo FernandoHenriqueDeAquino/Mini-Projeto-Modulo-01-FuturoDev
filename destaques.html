@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destaques</title>
+    <style>
+        .destaque-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 20px;
+        }
+        .usuario-destaque {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .avatar-img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <script src="scriptNavBar.js"></script>
+    <h1 id="forestcraft">FORESTcraft</h1>  
+    <div class="destaque-container" id="containerDestaques" data-avatar-classe>
+        <!-- Os destaques serão inseridos aqui via JavaScript -->
+    </div>
+    <script src="scriptMostrarDestaques.js"></script>
+    <link rel="stylesheet" href="temas-divs.css">
+    <script src="scriptAtribuirTema.js"></script>
+</body>
+</html>
