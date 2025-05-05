@@ -9,3 +9,27 @@
 .perobarosa {
     background-color: #d88acb; /* Exemplo para Peroba Rosa */
 }
+
+.destaque-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.usuario-destaque {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.avatar-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
