@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ul.style.display = 'flex';
     ul.style.gap = '20px';
     ul.style.justifyContent = 'center';
+    
 
     // Links das páginas
     const paginas = [

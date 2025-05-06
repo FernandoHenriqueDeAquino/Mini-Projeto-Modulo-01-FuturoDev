@@ -1,13 +1,13 @@
 .paubrasil {
-    background-color: #972307; /* Exemplo para Pau Brasil */
+    background-color: #e72e2e; /* Exemplo para Pau Brasil */
 }
 
 .castanheira {
-    background-color: #6d4c0e; /* Exemplo para Castanheira */
+    background-color: #9b7d5b; /* Exemplo para Castanheira */
 }
 
 .perobarosa {
-    background-color: #d88acb; /* Exemplo para Peroba Rosa */
+    background-color: #eb9cde; /* Exemplo para Peroba Rosa */
 }
 
 .destaque-container {
@@ -32,4 +32,56 @@
     width: 60px;
     height: 60px;
     object-fit: cover;
+}
+
+#div-form-cadastro-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+#divtitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    color: gray;
+}
+
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#div-busca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: auto;
+    vertical-align: auto;
+    align-content: center;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#div-cadastro-plantio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: auto;
+    vertical-align: auto;
 }
