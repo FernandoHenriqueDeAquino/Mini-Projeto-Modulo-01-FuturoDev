@@ -1,13 +1,13 @@
 .paubrasil {
-    background-color: #e72e2e; /* Exemplo para Pau Brasil */
+    background-color: #e72e2e;
 }
 
 .castanheira {
-    background-color: #9b7d5b; /* Exemplo para Castanheira */
+    background-color: #9b7d5b;
 }
 
 .perobarosa {
-    background-color: #eb9cde; /* Exemplo para Peroba Rosa */
+    background-color: #eb9cde;
 }
 
 .destaque-container {
@@ -20,6 +20,7 @@
     border: 1px solid #ccc;
     border-radius: 8px;
 }
+
 .usuario-destaque {
     display: flex;
     align-items: center;
@@ -28,6 +29,7 @@
     border: 1px solid #ccc;
     border-radius: 8px;
 }
+
 .avatar-img {
     width: 60px;
     height: 60px;
@@ -54,7 +56,7 @@
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 #div-busca {
     display: flex;
@@ -84,5 +86,54 @@
     border-radius: 15px;
     max-width: auto;
     vertical-align: auto;
-    
+
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#bioTextarea {
+    display: none;
+    width: 300px;
+    height: 100px;
+}
+
+.bio-buttons {
+    margin-top: 10px;
+}
+
+.destaque-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+.usuario-destaque {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.avatar-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
